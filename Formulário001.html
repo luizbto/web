@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário da Pizzaria</title>
+</head>
+<body>
+    <h1>Formulário da Pizzaria</h1>
+    <form style="display:flex" action="/processar_pedido" method="POST">
+        <label for="nome">Nome:</label></label>
+        <input type="text" id="nome" name="nome" required><br>
+               
+        <p style=" padding-left: 3px;">
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required><br>
+        </p>
+        
+        <p></p>
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" required><br>
+
+        <label for="referencia">Referência:</label>
+        <input type="text" id="referencia" name="referencia"><br>
+
+        <input type="submit" value="Enviar Pedido">
+    </form>
+</body>
+</html>
