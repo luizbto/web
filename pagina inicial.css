@@ -1,0 +1,45 @@
+body{
+    color:black;
+    background-color: white ;
+    font-family: arial Arial, Helvetica, sans-serif;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 40px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+ header img{
+    width: 300px;
+    height: 300px;
+    border-radius:5%;
+    border: 5px;
+   
+}
+
+.center{
+    text-align:center;
+
+}
+footer img{
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    margin: 20px;
+    text-align: center;
+}
+nav a:hover {
+    color: white;
+}
