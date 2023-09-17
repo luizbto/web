@@ -40,8 +40,9 @@ footer {
 footer a{
     color: black;
     list-style-type: none ;
+    font-family:Arial, Helvetica, sans-serif;
     margin: 20px;
-    text-align: center;
+    text-align:center;
 
 }
 
