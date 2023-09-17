@@ -38,7 +38,10 @@ footer {
 
 
 footer a{
+    color: black;
+    list-style-type: none ;
     margin: 20px;
     text-align: center;
 
 }
+
