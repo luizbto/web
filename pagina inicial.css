@@ -31,10 +31,16 @@ footer img{
 footer {
     display: flex;
     justify-content: center;
+    list-style-type: none;
+
+
 }
+
+
 footer a{
     margin: 20px;
     text-align: center;
+
 }
 nav a:hover {
     color: white;
