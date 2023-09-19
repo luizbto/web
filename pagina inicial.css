@@ -26,6 +26,7 @@ ul{
 footer img{
     width: 40px;
     height: 40px;
+    text-align: center;
 }
 
 footer {
@@ -36,7 +37,16 @@ footer {
 
 }
 
-
+nav {
+    text-align: center;
+}
+nav a button {
+    background-color: yellow;
+    border-color: black;
+    border-radius: 12px;
+    padding: 5px;
+    color: orange;
+}
 footer a{
     color: black;
     list-style-type: none ;
