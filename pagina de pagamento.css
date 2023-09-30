@@ -1,0 +1,29 @@
+header img{
+    width: 300px;
+    height: 300px;
+    border-radius:5%;
+    border: 5px;
+   
+}
+
+.center{
+    text-align:center;
+
+}
+nav {
+    text-align: center;
+}
+nav a button {
+    color: black;
+    background-color: yellow;
+    border-color: black;
+    border-radius: 5px;
+    padding: 16px;
+  
+}
+body h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
