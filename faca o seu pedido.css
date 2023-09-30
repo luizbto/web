@@ -1,0 +1,14 @@
+header img{
+    width: 300px;
+    height: 300px;
+    border-radius:5%;
+    border: 5px;
+    
+}
+
+.center{
+    text-align:center;
+}
+body h1{
+ text-align: center;
+}
