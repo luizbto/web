@@ -30,3 +30,19 @@ th {
     background-color: #f2f2f2;
 }
 
+@media screen and (max-width: 768px) {
+    header img {
+        max-width: 80%; /* Reduza o tamanho máximo da imagem para telas menores */
+    }
+
+    table {
+        font-size: 14px; /* Reduza o tamanho da fonte da tabela em telas menores, se necessário */
+    }
+
+    th, td {
+        padding: 3px; /* Reduza o espaçamento interno para telas menores */
+    }
+}
+
+
+

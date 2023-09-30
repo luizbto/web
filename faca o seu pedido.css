@@ -12,3 +12,15 @@ header img{
 body h1{
  text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    header img {
+        width: 200px; /* Reduza o tamanho da imagem em telas menores */
+        height: 200px; /* Mantenha a proporção da imagem */
+    }
+
+    h1 {
+        font-size: 24px; /* Reduza o tamanho da fonte em telas menores, se necessário */
+    }
+}
+

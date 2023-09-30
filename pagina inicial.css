@@ -58,3 +58,35 @@ footer a{
 
 }
 
+@media screen and (max-width: 768px) {
+
+    body {
+    background-color: green;
+    
+    }
+    ul {
+        flex-direction: column; /* Alterar a direção da lista para coluna em telas menores */
+        align-items: flex-start; /* Alinhar os itens à esquerda em telas menores */
+        padding: 10px;
+    }
+
+    header img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    footer {
+        flex-direction: column; /* Alterar a direção do rodapé para coluna em telas menores */
+        align-items: center; /* Alinhar os itens ao centro em telas menores */
+    }
+
+    nav a button {
+        padding: 10px 16px;
+    }
+
+    footer a {
+        padding: 10px 20px;
+        margin: 5px;
+    }
+}
+
