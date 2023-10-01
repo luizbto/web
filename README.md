@@ -1,11 +1,11 @@
 # web
 Projetos web
 # Dados dos Alunos
-- **Nome**: Vinicius Tonholi de Almeida
-- **RA**: 2023.0273.8109
+- **Nome**: Jonas pereira do Nascimento 
+- **RA**: 2023.02380.981
 
-- **Nome**: Gabriel Bueno Tartari
-- **RA**: 2023.0238.2291
+- **Nome**: 
+- **RA**: 
 
 - **Nome**: Luiz Alberto da Silva Junior
 - **RA**: 2023.02423.108
@@ -13,8 +13,8 @@ Projetos web
 - **Nome**: Victor Guilherme Alves Reis
 - **RA**: 2023.0238.1227
 
-- **Nome**: Eduardo Carvalho Silva
-- **RA**: 2023.0256.9897
+- **Nome**: 
+- **RA**: 
 
 ## ESCOPO
 ### NANDO PASTEIS
