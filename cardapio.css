@@ -12,18 +12,21 @@ header img{
 
 }
 
-
-table {
+body{
     text-align: center;
     width: 30px;
     border-collapse: collapse;
-    margin-bottom: 20px;
+    margin-bottom: 20px;
+
 }
+
+
 
 th, td {
     border: 5px solid #ccc;
     padding: 5px;
-    text-align: left;
+    text-align:center;
+
 }
 
 th {
