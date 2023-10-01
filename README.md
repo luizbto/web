@@ -4,17 +4,14 @@ Projetos web
 - **Nome**: Jonas pereira do Nascimento 
 - **RA**: 2023.02380.981
 
-- **Nome**: 
-- **RA**: 
+- **Nome**: Willian de Souza Goulart 
+- **RA**: 202302381235
 
 - **Nome**: Luiz Alberto da Silva Junior
 - **RA**: 2023.02423.108
 
 - **Nome**: Victor Guilherme Alves Reis
 - **RA**: 2023.0238.1227
-
-- **Nome**: 
-- **RA**: 
 
 ## ESCOPO
 ### NANDO PASTEIS
