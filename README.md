@@ -73,3 +73,6 @@ Criar meios de registro de pagamento (pix, cartão ou dinheiro).
 5. O pedido vai para a pastelaria para ser aprovado; sendo aprovado, o pedido volta para o cliente com a notificação de aprovação e informações sobre o tempo estimado de entrega.
 
 6. Os pedidos são armazenados em um banco de dados para serem contabilizados para a produção em uma plataforma e sistema de gerenciamento.
+
+
+https://github.com/luizbto/web/blob/main/pagina%20inicial.html
