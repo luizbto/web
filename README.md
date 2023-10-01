@@ -1,18 +1,17 @@
+# web
+Projetos web
 # Dados dos Alunos
-- **Nome**: Vinicius Tonholi de Almeida
-- **RA**: 2023.0273.8109
+- **Nome**: Jonas pereira do Nascimento 
+- **RA**: 2023.02380.981
 
-- **Nome**: Gabriel Bueno Tartari
-- **RA**: 2023.0238.2291
+- **Nome**: Willian de Souza Goulart 
+- **RA**: 202302381235
 
 - **Nome**: Luiz Alberto da Silva Junior
 - **RA**: 2023.02423.108
 
 - **Nome**: Victor Guilherme Alves Reis
 - **RA**: 2023.0238.1227
-
-- **Nome**: Eduardo Carvalho Silva
-- **RA**: 2023.0256.9897
 
 ## ESCOPO
 ### NANDO PASTEIS
@@ -74,3 +73,6 @@ Criar meios de registro de pagamento (pix, cartão ou dinheiro).
 5. O pedido vai para a pastelaria para ser aprovado; sendo aprovado, o pedido volta para o cliente com a notificação de aprovação e informações sobre o tempo estimado de entrega.
 
 6. Os pedidos são armazenados em um banco de dados para serem contabilizados para a produção em uma plataforma e sistema de gerenciamento.
+
+
+https://github.com/luizbto/web/blob/main/pagina%20inicial.html

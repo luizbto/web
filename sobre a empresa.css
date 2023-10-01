@@ -14,3 +14,9 @@ header img{
     border-radius:5%;
     border: 5px;
 }
+
+@media screen and (max-width: 768px) {
+    header img {
+        max-width: 80%; /* Reduza o tamanho máximo da imagem para telas menores */
+    }
+}
