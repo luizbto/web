@@ -2,6 +2,7 @@ body{
     color:black;
     background-color: white ;
     font-family: arial Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 ul{
     display: flex;
@@ -33,6 +34,7 @@ footer {
     display: flex;
     justify-content: center;
     list-style-type: none;
+    text-decoration: none;
 
 
 }
