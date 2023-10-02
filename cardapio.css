@@ -13,7 +13,6 @@ header img{
 }
 
 body{
-    text-align: center;
     width: 30px;
     border-collapse: collapse;
     margin-bottom: 20px;
@@ -25,7 +24,7 @@ body{
 th, td {
     border: 5px solid #ccc;
     padding: 5px;
-    text-align:center;
+   
 
 }
 
