@@ -34,8 +34,12 @@ footer {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    text-decoration: none;
+   
 
+}
+
+footer a {
+    text-decoration: none;
 
 }
 

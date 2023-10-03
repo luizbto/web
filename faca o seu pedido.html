@@ -3,9 +3,10 @@
 
 <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0">
         <title>faça o seu pedido</title>
         <link rel="stylesheet" href="faca o seu pedido.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
@@ -14,35 +15,43 @@
                 <img src="./img/logotipo.png">
                 </div>
         </header>
-        <h1>comece o seu pedido preechendo o seus dados</h1>
+        <h2>comece o seu pedido preechendo o seus dados</h2>
+        <div class="formulario_pedido">
 
-        <h2>
-                <div class="center">
-                <table>
-                        <label for="nome">Nome:</label></label>
-                        <input type="text" id="nome" name="nome" required><br>
-
-
-                        
-                        <label for="endereco">Endereço:</label>
-                        <input type="text" id="endereco" name="endereco" required><br>
-
-
-                        <label for="telefone">Telefone:</label>
-                        <input type="tel" id="telefone" name="telefone" required><br>
-
-                        <label for="nome">Respónsavel para retirada:</label></label>
-                        <input type="text" id="nome" name="nome" required><br>
-
-                       
-                        <label for="referencia">Forma de pagamento:</label>
-                        <input type="text" id="referencia" name="referencia"><br>
-
-                        <a href="cardapio.html" target="_blank"><input type="button" value="Acesse o Cardapio"></a>
-                </table>
+        <form class="row g-3">
+                <div class="col-md-6">
+                        <label for="inputNome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="inputNome">
                 </div>
-
-                <a href="index.html" target="_blank"><input style="margin: 0 15px;" type='button'
-                value="voltar"></a>
+                <div class="col-md-6">
+                        <label for="inputAddress" class="form-label">Endereço</label>
+                        <input type="text" class="form-control" id="inputAddress">
+                </div>
+                <div class="col-12">
+                        <label for="inputPhone" class="form-label">Telefone de Contato</label>
+                        <input type="tel" class="form-control" id="inputPhone" placeholder="telefone de contato com DDD">
+                </div>
+                <div class="col-12">
+                        <label for="inputRetirada" class="form-label">Responsável Retirada</label>
+                        <input type="text" class="form-control" id="inputRetirada" placeholder="Quem irá receber o pedido">
+                </div>
+                <div class="col-md-4">
+                        <label for="inputFormaPagto" class="form-label">Forma Pagamento</label>
+                        <select id="inputFormaPagto" class="form-select">
+                                <option selected>Escolha...</option>
+                                <option>PIX</option>
+                                <option>Débito</option>
+                                <option>Crédito</option>
+                        </select>
+                </div>
+                <div class="col-12">
+                        <a class="btn btn-outline-primary" href="cardapio.html" role="button">Acesse o Cardapio</a>
+                </div>
+                <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Enviar pedido</button>
+                </div>
+        </form>
+        </div>
         <!--botão pra voltar a pagina inicial-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

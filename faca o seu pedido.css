@@ -1,9 +1,14 @@
 header img{
-    width: 300px;
-    height: 300px;
+    width: 80vw;
+    height: auto;
     border-radius:5%;
     border: 5px;
-    
+}
+
+@media screen and (min-width: 400px) {
+    header img {
+        width: 300px;
+    } 
 }
 
 .center{
@@ -33,3 +38,9 @@ table{
     }
 }
 
+@media screen and (min-width: 600px) {
+    .formulario_pedido {
+        width: 60vw;
+        margin: auto;
+    }
+}
