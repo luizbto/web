@@ -1,0 +1,181 @@
+body{
+    color:black;
+    background-color: white ;
+    font-family: arial Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h3{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+h4{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* logotipo*/
+
+header img{
+    width: 300px;
+    height: 300px;
+    border-radius:5%;
+    border: 5px;
+   
+}
+
+.center{
+    text-align:center;
+
+}
+
+/* botões*/
+
+
+
+nav {
+    text-align: center;
+}
+
+
+/*logotipo do intagram*/
+
+footer img{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+   
+
+}
+
+footer a {
+    text-decoration: none;
+
+}
+
+footer a{
+    color: rgb(40, 58, 224);
+    padding: 50px;
+    list-style-type: none ;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 20px;
+    text-align:center;
+
+}
+
+
+/* deixar o site responsivo com o mobile */
+
+
+@media screen and (max-width: 768px) {
+
+    body {
+    background-color: white;
+    
+    }
+    ul {
+        flex-direction: column; /* Alterar a direção da lista para coluna em telas menores */
+        align-items: flex-start; /* Alinhar os itens à esquerda em telas menores */
+        padding: 10px;
+    }
+
+    header img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    footer {
+        flex-direction: column; /* Alterar a direção do rodapé para coluna em telas menores */
+        align-items: center; /* Alinhar os itens ao centro em telas menores */
+    }
+
+    nav a button {
+        padding: 10px 16px;
+    }
+
+    footer a {
+        padding: 10px 20px;
+        margin: 5px;
+    }
+}
+
+
+
+
+
+
+/* o css abaixo se refere ao html faça o seu pedido*/
+
+header img{
+    width: 80vw;
+    height: auto;
+    border-radius:5%;
+    border: 5px;
+}
+
+@media screen and (min-width: 400px) {
+    header img {
+        width: 300px;
+    } 
+}
+
+.center{
+    text-align:center;
+}
+
+
+table{
+    text-align: center;
+   
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    header img {
+        width: 200px; /* Reduza o tamanho da imagem em telas menores */
+        height: 200px; /* Mantenha a proporção da imagem */
+    }
+
+    h2 {
+        font-size: 24px; /* Reduza o tamanho da fonte em telas menores, se necessário */
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .formulario_pedido {
+        width: 60vw;
+        margin: auto;
+    }
+}
+
+table th td {
+    text-align: center;
+}
+
+footer a class button{
+    text-align: left;
+}
