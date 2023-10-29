@@ -17,17 +17,136 @@
     </div>
 </header>
 <body>
-    <h1>Fazer Pagamento</h1>
+    <h1>Analise o seu pedido</h1>
 
-        <div>
-    <h2>Total a Pagar <br> R$ 10:00  </h2>
+    <form class="row g-3">
+        <div class="col-md-6">
+                <label for="inputNome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="inputNome">
+        </div>
+        <div class="col-md-6">
+                <label for="inputAddress" class="form-label">Endereço</label>
+                <input type="text" class="form-control" id="inputAddress">
+        </div>
+        <div class="col-12">
+                <label for="inputPhone" class="form-label">Telefone de Contato</label>
+                <input type="tel" class="form-control" id="inputPhone" placeholder="telefone de contato com DDD">
+        </div>
+        <div class="col-12">
+                <label for="inputRetirada" class="form-label">Responsável Retirada</label>
+                <input type="text" class="form-control" id="inputRetirada" placeholder="Quem irá receber o pedido">
+        </div>
+        <div class="col-md-4">
+                <label for="inputFormaPagto" class="form-label">Forma Pagamento</label>
+                <select id="inputFormaPagto" class="form-select">
+                        <option selected>Escolha...</option>
+                        <option>PIX</option>
+                        <option>Débito</option>
+                        <option>Crédito</option>
+                        <option>Dinheiro</option>
+                </select>
+        </div>
+               
+        <table>
+                        
+            <th>Código do Pastel</th>
+            <th>Pastel</th>
+            <th>Valor</th>
+            <th>Quantidade</th>
+            <th>valor total</th>
+           
+
+            <tr>
+                    <td>P001</td>
+                    <td>Carne</td>
+                    <td>R$ 8,00</td>
+                    <td> <input type="number" max="99" min="0"> </td>
+                    <td> <input type="number" max="99" min="0"> </td>
+            </tr>
+            <tr>
+                    <td>P002</td>
+                    <td>Queijo</td>
+                    <td>R$ 8,00</td>
+                    <td> <input type="number" max="99" min="0"> </td>
+                    <td> <input type="number" max="99" min="0"> </td>
+            </tr>   <tr>
+                    <td>P003</td>
+                    <td>Pizza</td>
+                    <td>R$ 8,00</td>
+                    <td> <input type="number" max="99" min="0"> </td>
+                    <td> <input type="number" max="99" min="0"> </td>
+            </tr>   <tr>
+                    <td>P004</td>
+                    <td>Carne/Queijo</td>
+                    <td>R$ 8,00</td>
+                    <td> <input type="number" max="99" min="0"> </td>
+                    <td> <input type="number" max="99" min="0"> </td>
+            </tr>   <tr>
+                    <td>P005</td>
+                    <td>Mexicano</td>
+                    <td>R$ 8,00</td>
+                    <td> <input type="number" max="99" min="0"> </td>
+                    <td> <input type="number" max="99" min="0"> </td>
+            </tr>   <tr>
+                    <td>P006</td>
+                    <td>Frango/Captury</td>
+                    <td>R$ 8,00</td>
+                    <td> <input type="number" max="99" min="0"> </td>
+                    <td> <input type="number" max="99" min="0"> </td>
+            </tr>   <tr>
+                    <td>P007</td>
+                    <td>3/1</td>
+                    <td>R$ 8,00</td>
+                    <td> <input type="number" max="99" min="0"> </td>
+                    <td> <input type="number" max="99" min="0"> </td>
+            </tr>   <tr>
+                    <td>P008</td>
+                    <td>Palmito</td>
+                    <td>R$ 8,00</td>
+                    <td> <input type="number" max="99" min="0"> </td>
+                    <td> <input type="number" max="99" min="0"> </td>
+            </tr>   <tr>
+                    <td>P009</td>
+                    <td>Queijo/Alho</td>
+                    <td>R$ 8,00</td>
+                    <td> <input type="number" max="99" min="0"> </td>
+                    <td> <input type="number" max="99" min="0"> </td>
+            </tr>   <tr>
+                    <td>P010</td>
+                    <td>Nutella</td>
+                    <td>R$ 8,00</td>
+                    <td> <input type="number" max="99" min="0"> </td>
+                    <td> <input type="number" max="99" min="0"> </td>
+            </tr>   <tr>
+                    <td>P011</td>
+                    <td>Carne/ovo</td>
+                    <td>R$ 8,00</td>
+                    <td> <input type="number" max="99" min="0"> </td>
+                    <td> <input type="number" max="99" min="0"> </td>
+            </tr>   
+            <th>total de pastéis</th>
+            <td> <input type="number" max="99" min="0"> </td>
+            <th></th>
+            <th>Valor total</th>
+            <td> <input type="number" max="99" min="0"> </td>
+
+           
+        
+    </table>
+  
+        <div class="col-12">
+                <a class="btn btn-outline-primary" href="cardapio.html" role="button">Avance para Cardapio</a>
+               
+        </div>
+       
+</form>
+</div>
     
     <nav>
         <div>
            <!--LINKS -->
-           <a class="btn btn-outline-primary" href="integrantes banco de dados.html" role="button">pix</a>
-           <a class="btn btn-outline-primary" href="integrantes python.html" role="button">Crédito</a>
-           <a class="btn btn-outline-primary" href="integrantes web.html" role="button">Débito </a> 
+           <a class="btn btn-outline-primary" href="integrantes banco de dados.html" role="button">Enviar Pedido</a>
+
 
         </div>
    </nav>
