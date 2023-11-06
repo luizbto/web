@@ -212,4 +212,8 @@ aside > button {
 }
 aside > button:hover {
   background: rgb(195, 0, 0);
+}
+
+.bt.id .btn {
+  width: 100px;
 }/*# sourceMappingURL=sytles.css.map */

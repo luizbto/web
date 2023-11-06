@@ -7,32 +7,35 @@ Projetos web
 - **Nome**: Willian de Souza Goulart 
 - **RA**: 202302381235
 
-- **Nome**: Luiz Alberto da Silva Junior
-- **RA**: 2023.02423.108
-
 - **Nome**: Victor Guilherme Alves Reis
 - **RA**: 2023.0238.1227
 
+# NANDO PASTEIS
 ## ESCOPO
-### NANDO PASTEIS
-Vamos produzir um site com intuito de ser semelhante a um ERP.
-Atendendo cliente, gestor, produção, estoque e entregador com suas devidas permissões.
-**Obs.:** Fernando (administrador GERAL)
-(PLUS - hiperlink de contato via Whatsapp e chamadas convencionais).
-Criar meios de registro de pagamento (pix, cartão ou dinheiro).
-**Objetivo:** Facilitar a encomenda e entrega de pastéis de forma conveniente para os usuários.
+
+**Introdução:**
+Estamos criando um sistema para a pastelaria “Nando Pastéis”, onde os clientes iniciam a encomenda pelo o WhatsApp com  uma mensagem automática, recebendo um link para o site, no qual preenchem o seus dados e fazem o pedido. O sistema armazena os pedidos, permitindo ao gerente controlar a produção de forma eficiente.
+
+**Objetivo:** O desafio enfrentado pelo proprietário é a ausência de um sistema eficiente para gerenciar a entrada e saída dos pastéis, bem como as encomendas solicitadas. A solução proposta é um sistema que permita aos clientes fazer pedidos de forma rápida e fácil, enquanto cada pedido é automaticamente contabilizado e organizado no sistema de gerenciamento do proprietário.
+
 
 ### Recursos Principais:
 
 1. **Página Inicial:**
-    - Destaque dos pastéis mais populares.
-    - Sobre a empresa
+    
+    
+    - Integrantes
     - Faça aqui o seu pedido
     - Nosso espaço
 
-2. **Navegação por Cardápio:**
-    - Listagem de pastéis disponíveis com fotos, descrições, preços e avaliações dos clientes.
-    - Opção para adicionar pastéis ao carrinho de compras.
+2. **Navegação do formulário para os dados pessoais:**
+
+ - Nome  
+ - Endereço  
+ - Telefone de Contato  
+ - Responsável Retirada  
+ - Quem irá receber o pedido  
+ - Forma Pagamento  
 
 3. **Carrinho de Compras:**
     - Exibição dos itens selecionados com a opção de editar quantidades ou remover pastéis.
@@ -61,16 +64,16 @@ Criar meios de registro de pagamento (pix, cartão ou dinheiro).
 ---
 
 ### Fluxo do Pedido
-1. O usuário faz a solicitação dos Pasteis, escolhendo sabores e as quantidades.
 
-2. O registro do pedido é feito, e o pastel passa a ser preparado.
+1. O usuário emtra em contato via whats app, no whats app o usuario irá receber um link para o site.
 
-3. Comanda:
-    - O link será direcionado para uma interface para ser preenchida em uma espécie de comanda.
+2. O usuário preeche os dados Pessoais e informçãoes.
 
-4. O cliente visualiza a comanda para preencher.
+3. O cliente visualiza a comanda para preencher.
 
-5. O pedido vai para a pastelaria para ser aprovado; sendo aprovado, o pedido volta para o cliente com a notificação de aprovação e informações sobre o tempo estimado de entrega.
+4. O usuário faz a solicitação dos Pasteis, escolhendo sabores e as quantidades.
+
+5. O pedido será aprovado e enviado para a pastelaria para iniciar a produção.
 
 6. Os pedidos são armazenados em um banco de dados para serem contabilizados para a produção em uma plataforma e sistema de gerenciamento.
 

@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #f6f6f6;
+  background-color: #fefefe;
   font-family: Arial, Helvetica, sans-serif;
   /*logotipo do intagram*/
 }
@@ -212,4 +212,8 @@ aside > button {
 }
 aside > button:hover {
   background: #c30000;
+}
+
+.bt.id .btn {
+  width: 100px;
 }
